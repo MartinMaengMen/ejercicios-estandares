@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts",
+    "fix": "eslint --fix",
+    "format": "prettier --write .",
+    "ff": "npm run fix && npm run format",
     "prepare": "husky install"
   },
   "keywords": [],
