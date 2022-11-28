@@ -1,4 +1,4 @@
-import { RegistryVehicle } from "./registry-vehicle.js";
+import { RegistryVehicle } from "./registry-vehicle";
 
 describe('@RegistryVehicle',()=>{
     it('Should return status code 400 when name does not exist',()=>{
